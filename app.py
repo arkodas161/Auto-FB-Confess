@@ -4,7 +4,7 @@ from flask import Flask, flash, render_template, request
 from helpers import *
 
 app = Flask(__name__)
-app.secret_key = os.environ["s77"]
+app.secret_key = os.environ["s7jwksmkwlwlkkjy827390928378jdnsmsm7"]
 
 @app.route('/', methods=["GET", "POST"])
 def index():
