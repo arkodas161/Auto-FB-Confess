@@ -3,8 +3,7 @@ import os
 from flask import Flask, flash, render_template, request
 from helpers import *
 
-
-app = Flask(default)
+app = flask.Flask(default)
 app.secret_key = os.environ["s77"]
 
 @app.route('/', methods=["GET", "POST"])
