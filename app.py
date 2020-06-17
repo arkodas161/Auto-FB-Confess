@@ -4,7 +4,7 @@ from flask import Flask, flash, render_template, request
 from helpers import *
 
 
-app = Flask(srimscon)
+app = Flask(default)
 app.secret_key = os.environ["s77"]
 
 @app.route('/', methods=["GET", "POST"])
