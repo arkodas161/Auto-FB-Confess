@@ -7,8 +7,8 @@ import os
 def fbpost(msg):
 
   cfg = {
-    "page_id"      : os.environ["PAGE_ID"],  
-    "access_token" : os.environ["ACCESS_TOKEN"]
+    "page_id"      : os.environ["102495224849425"],  
+    "access_token" : os.environ["EAAIjudAVT90BAPZCS2ykxZA7duBTsBhq8mPpcZB1IMgsiuM9uBPhf6yVs5gw91e5cUUftndp8ZAddaMLizIHoC5owD7956UnHrU4vyGGqdbucqahFwbz4Nh245MsDzE7OZCHZAKlt24A6J4Y9uAHay16yIoliLIlxZCvULvfk9A7CLXZASmrJmoIBDhYd5stEbYZD"]
     }
 
   api = get_api(cfg)
